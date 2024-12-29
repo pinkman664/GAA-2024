@@ -1,0 +1,31 @@
+﻿Сборка начата 16.12.2024 11:24:52.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\kokoj\OneDrive\Рабочий стол\GAA-2024-main\Library\Library.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\Library.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\Library.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"C:\Users\kokoj\OneDrive\Рабочий стол\GAA-2024-main\Debug\Library.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt GAALib.cpp
+         GAALib.cpp
+     1>C:\Users\kokoj\OneDrive\Рабочий стол\GAA-2024-main\Library\GAALib.cpp(19,13): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+     1>C:\Users\kokoj\OneDrive\Рабочий стол\GAA-2024-main\Library\GAALib.cpp(25,11): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+       Lib:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX86\x86\Lib.exe /OUT:"C:\Users\kokoj\OneDrive\Рабочий стол\GAA-2024-main\Debug\Library.lib" /NOLOGO /MACHINE:X86 Debug\GAALib.obj
+         Library.vcxproj -> C:\Users\kokoj\OneDrive\Рабочий стол\GAA-2024-main\Debug\Library.lib
+       TlogCleanup:
+         Следующие элементы будут удалены из tlogs, так как они были удалены из проекта или сборки: C:\Users\kokoj\OneDrive\Рабочий стол\GAA-2024-main — копия\Library\GAALib.cpp.
+       FinalizeBuildStatus:
+         Файл "Debug\Library.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Library.tlog\Library.lastbuildstate".
+     1>Сборка проекта "C:\Users\kokoj\OneDrive\Рабочий стол\GAA-2024-main\Library\Library.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Users\kokoj\OneDrive\Рабочий стол\GAA-2024-main\Library\Library.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\kokoj\OneDrive\Рабочий стол\GAA-2024-main\Library\GAALib.cpp(19,13): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+         C:\Users\kokoj\OneDrive\Рабочий стол\GAA-2024-main\Library\GAALib.cpp(25,11): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+
+    Предупреждений: 2
+    Ошибок: 0
+
+Прошло времени 00:00:01.00
