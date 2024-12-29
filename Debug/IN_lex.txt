@@ -1,0 +1,10 @@
+Main
+{
+	int a = 4 ++ 5;
+		
+     	WriteLine "Привет Мир!";
+
+	int 1stNumber = 10; 
+	WriteLine "1stNumber = " + 1stNumber;
+	
+}

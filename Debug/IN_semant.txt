@@ -1,0 +1,21 @@
+void fun Hi(string n)
+{return n;}
+
+void fun Print(string str, string str2)  
+{
+    WriteLine str;
+}
+
+Main {}
+Main
+{
+int del = 1 + b;
+
+int a = 1/0 ;
+
+string m = "Yo";
+WriteLine Hi(m);
+
+Print("asd");
+	
+

@@ -1,0 +1,73 @@
+string fun Hello()
+{
+	return "Hello World!";
+}
+void fun Print(string str)
+{
+	WriteLine str;
+	
+}
+int fun fibonacci(int n)
+{
+    if(n == 0)
+	then {return 0;}
+    if(n == 1 || n == 2) 
+	then {return 1;}
+    return fibonacci(n-1)+fibonacci(n-2);
+}
+
+Main
+{
+	string str = Hello();
+	WriteLine "resultHello = " + Hello();
+	Print("Demonstration of programs!");
+	str = "by Artsem Garmel!";
+	WriteLine str;
+	char symbol = 'X';
+	WriteLine "symbol = " + symbol;
+	int a = 3; 
+	WriteLine "a = " + a;
+	int b = 0x15;
+	WriteLine "b = " + b;
+	bool Boolean = false;
+	WriteLine "Boolean = " + Boolean;
+	WriteLine " ";
+
+	int AND = a & b;
+	int OR = 17 | 5;
+	int XOR = 23 ^ 9;
+	int NOT = ~a;
+
+	WriteLine a + " & " + b + " = " + AND;
+	WriteLine "17 | 5 = " + OR; 
+	WriteLine "23 ^ 9 = " + XOR; 
+	WriteLine "~" + a + " = " + NOT;
+	WriteLine " ";
+
+	b = squere(4);
+
+	WriteLine "pow(2, 2) = " + pow(2, 2);
+	WriteLine "squere(4) = " + b;
+	WriteLine "fibonacci(4) = " + fibonacci(4);
+	int mess = "Hello";	
+	WriteLine "mess Length = " + Getlength(mess);
+
+	WriteLine " ";
+	a = 0 + 3;
+	b = 15;
+	if (b == 13)
+	then
+	{
+	WriteLine "Hello!!!!!!!";
+	}
+	else 
+	{
+	WriteLine "Bye bye";
+	}
+	while( a != b)
+	{
+		WriteLine "I have " + b + " steps left to take!!!";
+		b = b - 1;
+	}
+	WriteLine "The End!!!";
+}
