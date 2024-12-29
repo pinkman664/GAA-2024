@@ -1,0 +1,22 @@
+﻿Сборка начата 16.12.2024 11:31:43.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\kokoj\OneDrive\Рабочий стол\GAA-2024-main\Assembler\Assembler.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\Assembler.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\Assembler.tlog\unsuccessfulbuild".
+       _MASM:
+         Assembling ASM.asm...
+         cmd.exe /C "C:\Users\kokoj\AppData\Local\Temp\tmp1d7c4f5b456a471eb75d6d8f491d423e.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\ASM.obj" /W3 /errorReport:prompt  /TaASM.asm
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kokoj\OneDrive\Рабочий стол\GAA-2024-main\Debug\Assembler.exe" /INCREMENTAL /ILK:"Debug\Assembler.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\kokoj\OneDrive\Рабочий стол\GAA-2024-main\Debug\Assembler.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kokoj\OneDrive\Рабочий стол\GAA-2024-main\Debug\Assembler.lib" /MACHINE:X86 Debug\ASM.obj
+         Assembler.vcxproj -> C:\Users\kokoj\OneDrive\Рабочий стол\GAA-2024-main\Debug\Assembler.exe
+       FinalizeBuildStatus:
+         Файл "Debug\Assembler.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Assembler.tlog\Assembler.lastbuildstate".
+     1>Сборка проекта "C:\Users\kokoj\OneDrive\Рабочий стол\GAA-2024-main\Assembler\Assembler.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.49
