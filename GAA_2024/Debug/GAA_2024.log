@@ -1,0 +1,40 @@
+﻿Сборка начата 16.12.2024 10:16:41.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\kokoj\OneDrive\Рабочий стол\GAA-2024-main\GAA_2024\GAA_2024.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\GAA.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\GAA.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt In.cpp
+         In.cpp
+     1>C:\Users\kokoj\OneDrive\Рабочий стол\GAA-2024-main\GAA_2024\In.cpp(92,8): warning C4101: flagplus: неиспользованная локальная переменная
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kokoj\OneDrive\Рабочий стол\GAA-2024-main\Debug\GAA.exe" /INCREMENTAL /ILK:"Debug\GAA.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\kokoj\OneDrive\Рабочий стол\GAA-2024-main\Debug\GAA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kokoj\OneDrive\Рабочий стол\GAA-2024-main\Debug\GAA.lib" /MACHINE:X86 Debug\Error.obj
+         Debug\FST.obj
+         Debug\Generator.obj
+         Debug\GRB.obj
+         Debug\In.obj
+         Debug\IT.obj
+         Debug\GAA_2024.obj
+         Debug\LexAnaliz.obj
+         Debug\Log.obj
+         Debug\LT.obj
+         Debug\MFST.obj
+         Debug\Parm.obj
+         Debug\PolishNotation.obj
+         Debug\SemanticAnaliz.obj
+         GAA_2024.vcxproj -> C:\Users\kokoj\OneDrive\Рабочий стол\GAA-2024-main\Debug\GAA.exe
+       FinalizeBuildStatus:
+         Файл "Debug\GAA.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\GAA.tlog\GAA.lastbuildstate".
+     1>Сборка проекта "C:\Users\kokoj\OneDrive\Рабочий стол\GAA-2024-main\GAA_2024\GAA_2024.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Users\kokoj\OneDrive\Рабочий стол\GAA-2024-main\GAA_2024\GAA_2024.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\kokoj\OneDrive\Рабочий стол\GAA-2024-main\GAA_2024\In.cpp(92,8): warning C4101: flagplus: неиспользованная локальная переменная
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:01.60
